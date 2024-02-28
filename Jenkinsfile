@@ -8,7 +8,7 @@ pipeline {
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/Nickw711/walshnj-lb-deploy.git'  //do change this
         
-        KUBECONFIG = credentials('roseaw-225')  //do change this
+        KUBECONFIG = credentials('walshnj-225')  //do change this
     }
 
     stages {
